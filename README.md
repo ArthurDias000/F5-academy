@@ -6,17 +6,15 @@ Aplicativo Android desenvolvido para gerenciar clientes e pagamentos de uma acad
 
 ## 🖼️ Imagens do App
 
-### Tela Inicial!
-
-![tela_inicial png](https://github.com/user-attachments/assets/0873869c-6173-41ab-8bc1-3db795a244cc)
-
+### Tela Inicial
+<img src="https://github.com/user-attachments/assets/0873869c-6173-41ab-8bc1-3db795a244cc" width="300"/>
 
 ### Cadastro de Cliente
-![cadastro_cliente png](https://github.com/user-attachments/assets/53a38922-f910-462c-8dfd-10622bdfb915)
+<img src="https://github.com/user-attachments/assets/53a38922-f910-462c-8dfd-10622bdfb915" width="300"/>
 
 ### Lista de Clientes
+<img src="https://github.com/user-attachments/assets/331099c5-78be-4c2e-bd61-ee0b1698583f" width="300"/>
 
-![tela_lista png](https://github.com/user-attachments/assets/331099c5-78be-4c2e-bd61-ee0b1698583f)
 
 > Coloque seus prints de tela na pasta `imagens/` do repositório e substitua os nomes acima se necessário.
 
