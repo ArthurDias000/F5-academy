@@ -8,7 +8,8 @@ Aplicativo Android desenvolvido para gerenciar clientes e pagamentos de uma acad
 
 ### Tela Inicial!
 
-[tela_inicial png](https://github.com/user-attachments/assets/74f6c2f8-4ddf-4519-b981-50c44848269b)
+![tela_inicial png](https://github.com/user-attachments/assets/0873869c-6173-41ab-8bc1-3db795a244cc)
+
 
 ### Cadastro de Cliente
 ![cadastro_cliente png](https://github.com/user-attachments/assets/53a38922-f910-462c-8dfd-10622bdfb915)
