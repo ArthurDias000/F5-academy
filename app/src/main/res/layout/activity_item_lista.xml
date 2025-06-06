@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_item_clickable"
+    android:clickable="true"
+    android:focusable="true"
+    android:elevation="2dp"
+    android:animateLayoutChanges="true">
+
+    <TextView
+        android:id="@+id/textItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Cliente"
+        android:textSize="18sp"
+        android:textColor="#222222"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        android:fontFamily="sans-serif-medium" />
+</LinearLayout>

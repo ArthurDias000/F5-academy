@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_above="@id/cardView"
+        android:layout_marginBottom="-29dp"
+        android:background="#0F1630"
+        android:src="@drawable/logo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-20dp"
+        app:cardCornerRadius="28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4A4747"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bem Vindo!"
+                android:textColor="@color/my_primary"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:text="Realize o seu login para acessar o sistema"
+                android:textColor="#FFFFFF" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+
+            <!-- CAMPO DE E-MAIL ESTILIZADO -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/campologin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#FFFFFF"
+                    android:textColorLink="#FF5722" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+
+            <!-- CAMPO DE SENHA COM VISUALIZAR NATIVO -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/camposenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Senha"
+                    android:inputType="textPassword"
+                    android:textColor="#FFFFFF"
+                    android:textColorLink="#FF5722" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/checkboxLembrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.7"
+                    android:text="Lembrar login e senha?"
+                    android:textColor="#FBFBFB" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="entrar"
+                android:text="Login"
+                app:cornerRadius="32dp"
+                tools:ignore="OnClick" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="cadastrar"
+                android:text="Cadastro"
+                app:backgroundTint="#0F1630"
+                app:cornerRadius="32dp"
+                tools:ignore="OnClick" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

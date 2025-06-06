@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">F5</string>
+    <string name="Cliente">Clientes</string>
+    <string name="Atualizar">Atualizar</string>
+    <string name="NovoCadastro"> Novo_Cadastro</string>
+    <string name="CadastroCliente">Cadastro_Cliente</string>
+</resources>

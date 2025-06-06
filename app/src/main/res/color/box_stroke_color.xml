@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor quando o campo está focado -->
+    <item android:color="#FF6D00" android:state_focused="true"/>
+
+    <!-- Cor quando o campo está ativado -->
+    <item android:color="#FF6D00" android:state_activated="true"/>
+
+    <!-- Cor quando o campo está preenchido -->
+    <item android:color="#FF6D00" android:state_checked="true"/>
+
+    <!-- Cor padrão (sem foco, sem ativação) -->
+    <item android:color="#FFFFFF"/>
+</selector>

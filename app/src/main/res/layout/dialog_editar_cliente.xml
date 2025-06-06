@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_dialog_rounded"
+    android:elevation="6dp">
+
+    <!-- Título do popup -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dados do Cliente"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="2dp" />
+
+    <!-- Campo Nome -->
+    <EditText
+        android:id="@+id/editNome"
+        style="@style/CustomEditText"
+        android:hint="Nome completo do cliente"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Campo CPF -->
+    <EditText
+        android:id="@+id/editCpf"
+        style="@style/CustomEditText"
+        android:hint="CPF (somente números)"
+        android:inputType="number"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Campo Telefone -->
+    <EditText
+        android:id="@+id/editTelefone"
+        style="@style/CustomEditText"
+        android:hint="Telefone (ex: (11) 91234-5678)"
+        android:inputType="number"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Campo Valor com inputType decimal -->
+    <EditText
+        android:id="@+id/editValor"
+        style="@style/CustomEditText"
+        android:hint="Valor do plano ou pagamento"
+        android:inputType="numberDecimal"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Campo Nascimento -->
+    <EditText
+        android:id="@+id/editNascimento"
+        style="@style/CustomEditText"
+        android:hint="Data de nascimento (dd/mm/aaaa)"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Campo Pagamento -->
+    <EditText
+        android:id="@+id/editPagamento"
+        style="@style/CustomEditText"
+        android:hint="Data do pagamento (dd/mm/aaaa)"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Campo Doença -->
+    <EditText
+        android:id="@+id/editDoenca"
+        style="@style/CustomEditText"
+        android:hint="Comorbidade ou condição de saúde"
+        android:textColorHint="@android:color/black" />
+
+    <!-- Botão Salvar -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="16dp"
+        app:cornerRadius="12dp"
+        android:fontFamily="sans-serif-medium" />
+
+</LinearLayout>

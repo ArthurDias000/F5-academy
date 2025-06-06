@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores básicas -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta personalizada -->
+    <color name="my_primary">#F4521F</color>
+    <color name="my_secondary">#F4521F</color>
+
+    <!-- Cores adicionais -->
+    <color name="black2">#0F162E</color>
+    <color name="Laranja">#D66619</color>
+    <color name="laranja">#FD8804</color>
+    <color name="Azul">#182d5f</color>
+
+    <color name="fundo_escuro">#0F1630</color>
+    <color name="texto_branco">#FFFFFF</color>
+    <color name="hint_claro">#FBFBFB</color>
+    <color name="laranja_vibrante">#FF6D00</color> <!-- Mantida a cor mais intensa -->
+    <color name="colorPrimaryDark">#1E3A5F</color> <!-- exemplo -->
+
+</resources>
