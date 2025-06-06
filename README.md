@@ -6,6 +6,8 @@ Aplicativo Android desenvolvido para gerenciar clientes e pagamentos de uma acad
 
 ## 🖼️ Imagens do App
 
+OBS: foi colocado apenas 3 prints das telas para demostração
+
 ### Tela Inicial
 <img src="https://github.com/user-attachments/assets/0873869c-6173-41ab-8bc1-3db795a244cc" width="300"/>
 
