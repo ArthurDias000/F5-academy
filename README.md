@@ -69,10 +69,8 @@ F5Academy/
 ├── .gitignore
 └── README.md
 
-## 🚀 Como Executar
 
-1. Clone o projeto:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+
+
 
 
